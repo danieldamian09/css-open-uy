@@ -1,4 +1,4 @@
-/* ==============================Pantalla Principal Login============================= */
+/* ==============================PAGINA DE LOGIN============================= */
 header {
     column-gap: 0px !important;
     grid-template-columns: repeat(1, 1fr) !important;
@@ -17,7 +17,7 @@ header {
     justify-content: center !important;
 }
 
-/* ==============================Estilo de la tabla de COOKIES============================================ */
+/* ==============================PAGINA DE COOKIES============================================ */
 
 div#api {
     max-width: 100% !important;
