@@ -1,0 +1,41 @@
+/* ==============================Pantalla Principal Login============================= */
+header {
+    column-gap: 0px !important;
+    grid-template-columns: repeat(1, 1fr) !important;
+
+}
+
+.grid {
+    padding: 0px 0px !important;
+}
+
+.grid .grid__left {
+    display: none !important;
+}
+
+.grid__right {
+    justify-content: center !important;
+}
+
+/* ==============================Estilo de la tabla de COOKIES============================================ */
+
+div#api {
+    max-width: 100% !important;
+}
+
+table,
+tbody,
+th,
+tr,
+td {
+    background: #fff !important;
+    border: 1px solid #000 !important;
+}
+
+/* ==============================PAGINA RESETPASSWORD ============================================ */
+
+#api {
+    width: 400px !important;
+    background: #fff !important;
+    padding-bottom: 30px !important;
+}
