@@ -163,10 +163,10 @@ header div {
   grid-row-start: 2;
   grid-column-start: 2;
   max-width: 100%;
-  padding: 24px 24px 0;
+  padding: 25px 0;
   background-color: #fff;
   border-radius: 5px 5px 0 0;
-  width: 352px;
+  width: 400px;
   background-color: white;
   position: relative;
   overflow: hidden;
@@ -285,10 +285,10 @@ td {
 }
 
 .grid__right .grid__item {
-  padding: 0 24px 24px;
+  padding: 0 25px 25px;
   background-color: #fff;
   border-radius: 0 0 5px 5px;
-  max-width: 380px;
+  max-width: 350px;
 }
 
 .grid__item {
@@ -333,7 +333,7 @@ td {
 
 .intro {
   color: #1c3664;
-  padding: 0 !important;
+  padding: 10px !important;
 }
 
 .intro h2 {
@@ -478,7 +478,7 @@ ul li {
 
 ul li input {
   height: 45px !important;
-  width: 98% !important;
+  width: 80% !important;
   box-shadow: none !important;
 }
 
