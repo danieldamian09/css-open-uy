@@ -1,0 +1,25 @@
+header {
+    column-gap: 48px;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.grid {
+    padding: 0px 40px;
+}
+
+.grid__left {
+    opacity: 0;
+    visibility: hidden;
+    align-items: start;
+    justify-content: center;
+    margin: 0 24px;
+}
+
+.grid__right {
+    justify-content: flex-start;
+}
+
+#api {
+    width: 100%;
+    max-width: 470px;
+}

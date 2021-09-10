@@ -32,7 +32,9 @@
   font-size: var(--font-size-xs);
 }
 
-.text-sm, .buttons #cancelCustom, .buttons #cancel {
+.text-sm,
+.buttons #cancelCustom,
+.buttons #cancel {
   font-size: var(--font-size-sm);
 }
 
@@ -44,7 +46,8 @@
   font-size: var(--font-size-lg);
 }
 
-.text-xl, h2 {
+.text-xl,
+h2 {
   font-size: var(--font-size-xl);
 }
 
@@ -56,7 +59,8 @@
   font-size: var(--font-size-3xl);
 }
 
-.text-color--white, div#email_intro {
+.text-color--white,
+div#email_intro {
   color: var(--text-color-white);
 }
 
@@ -64,7 +68,8 @@
   color: var(--text-color-gray);
 }
 
-.text-uppercase, h2 {
+.text-uppercase,
+h2 {
   text-transform: uppercase;
 }
 
@@ -84,7 +89,9 @@
   font-weight: var(--font-medium);
 }
 
-.weight-bold, h2, div#email_intro {
+.weight-bold,
+h2,
+div#email_intro {
   font-weight: var(--font-bold);
 }
 
@@ -100,7 +107,8 @@
   color: var(--text-color-second);
 }
 
-.custom--gradient-bg, body {
+.custom--gradient-bg,
+body {
   background: linear-gradient(0deg, var(--main-gradient-color) 0%, var(--second-gradient-color) 100%);
 }
 
@@ -144,12 +152,12 @@ header {
   grid-area: header;
   width: auto;
   display: grid;
-  column-gap: 48px;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(1, 1fr);
   grid-template-rows: repeat(2, 1fr);
   padding: 0 48px;
   height: 100%;
 }
+
 header div {
   text-align: left;
   grid-row-start: 2;
@@ -166,6 +174,7 @@ header div {
   height: 168px;
   margin-bottom: -2px;
 }
+
 header div img {
   position: absolute;
   left: 0;
@@ -185,9 +194,21 @@ footer {
   justify-self: center;
 }
 
+table,
+tbody,
+th,
+tr,
+td {
+  background: #fff !important;
+  border: 1px solid #000 !important;
+}
+
+
 #api {
-  width: 100%;
-  max-width: 470px;
+  width: 400px !important;
+  max-width: 100% !important;
+  background: #fff !important;
+  padding-bottom: 30px !important;
 }
 
 #forgotPassword {
@@ -214,13 +235,13 @@ footer {
   grid-template-columns: auto;
   grid-template-rows: auto;
   grid-auto-flow: dense;
-  grid-template-areas: "header" "main" "footer";
+  grid-template-areas: "header""main""footer";
 }
 
 .grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-  padding: 0px 40px;
+  padding: 0px;
 }
 
 .grid__left {
@@ -229,10 +250,13 @@ footer {
   align-items: start;
   justify-content: center;
   margin: 0 24px;
+  display: none;
 }
+
 .grid__left .grid__item {
   margin-top: 5%;
 }
+
 .grid__left .grid__item button {
   border: 0 !important;
   color: #246FA9 !important;
@@ -248,16 +272,18 @@ footer {
   min-width: 97px;
   transition: 0.3s;
 }
+
 .grid__left .grid__item button:hover {
   transform: translateY(-4px);
 }
 
 .grid__right {
   display: flex;
-  justify-content: flex-start;
+  justify-content: center;
   align-items: center;
   margin: 0 24px;
 }
+
 .grid__right .grid__item {
   padding: 0 24px 24px;
   background-color: #fff;
@@ -280,12 +306,14 @@ footer {
   margin-top: 3rem;
   border-top: 1px solid #fff;
 }
+
 .custom-box a {
   color: #999ea3 !important;
   text-decoration: none !important;
   margin: 0 2px;
   position: relative;
 }
+
 .custom-box a::after {
   content: "|";
   color: #999ea3;
@@ -307,6 +335,7 @@ footer {
   color: #1c3664;
   padding: 0 !important;
 }
+
 .intro h2 {
   text-transform: inherit;
   position: relative;
@@ -419,6 +448,7 @@ select#languages {
   min-width: 97px;
   transition: 0.3s;
 }
+
 .buttons button:not(#cancel):not(#cancelCustom):hover {
   transform: translateY(-4px);
 }
@@ -483,9 +513,11 @@ input {
   border-radius: 5px !important;
   color: #0D283D !important;
 }
+
 input::placeholder {
   color: #999ea3;
 }
+
 #localAccountForm button#next {
   margin-top: 0;
 }
@@ -503,7 +535,7 @@ input#verificationCode {
   margin: 1rem auto;
 }
 
-label[for=verificationCode] + a#retryCode {
+label[for=verificationCode]+a#retryCode {
   text-decoration: underline;
   margin: 1rem;
   display: block;
@@ -559,9 +591,11 @@ input#readonly_email {
   max-height: 160px;
   height: min-content;
 }
+
 .cookieConsentContainer .close {
   float: right;
 }
+
 .cookieConsentContainer .cookieTitle a {
   font-family: OpenSans, arial, "sans-serif";
   color: #0d283d;
@@ -569,6 +603,7 @@ input#readonly_email {
   line-height: 20px;
   display: block;
 }
+
 .cookieConsentContainer .cookieDesc p {
   margin: 0;
   padding: 0;
@@ -579,11 +614,13 @@ input#readonly_email {
   display: block;
   margin-top: 10px;
 }
+
 .cookieConsentContainer .cookieDesc a {
   font-family: OpenSans, arial, "sans-serif";
   color: #0ed5ae;
   text-decoration: underline;
 }
+
 .cookieConsentContainer .cookieButton a {
   display: inline-block;
   font-family: OpenSans, arial, "sans-serif";
@@ -598,6 +635,7 @@ input#readonly_email {
   border-color: #2469a1;
   color: #FFFFFF;
 }
+
 .cookieConsentContainer .cookieButton a:hover {
   cursor: pointer;
   background: #3e89c7;
@@ -612,6 +650,7 @@ input#readonly_email {
     max-height: inherit;
   }
 }
+
 @media (max-width: 768px) {
   header {
     display: grid;
@@ -621,6 +660,7 @@ input#readonly_email {
     height: 232px;
     width: 100%;
   }
+
   header div {
     grid-column-start: 1;
     background-color: inherit;
@@ -628,6 +668,7 @@ input#readonly_email {
     text-align: center;
     padding: 0;
   }
+
   header div img {
     width: 346px;
   }
@@ -641,6 +682,7 @@ input#readonly_email {
   .grid__left {
     order: 2;
   }
+
   .grid__left .grid__item .item__signup:first-child {
     background-color: white !important;
     color: #266da8;
@@ -650,6 +692,7 @@ input#readonly_email {
     order: 1;
     margin: auto;
   }
+
   .grid__right .grid__item {
     max-width: 367px;
     width: 100%;

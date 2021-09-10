@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>PMI OPEN</title>
+    <meta name="description" content="Bienvenidos a la comunidad OPEN">
+    <meta name="title" content="PMI OPEN">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+
+    <link rel="stylesheet" href="https://prdpmiazb2csa.blob.core.windows.net/uiasset/Base/css/normalizeV2.css"
+        data-preload="true" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://prdpmiazb2csa.blob.core.windows.net/uiasset/Base/css/vendor/assetsV2.css"
+        data-preload="true" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://prdpmiazb2csa.blob.core.windows.net/uiasset/Base/css/vendor/commonV2.css"
+        data-preload="true" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://prdpmiazb2csa.blob.core.windows.net/uiasset/Base/css/vendor/selfassertedV2.css"
+        data-preload="true" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://prdpmiazb2csa.blob.core.windows.net/uiasset/Base/css/mainV2.css"
+        data-preload="true" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://prdpmiazb2csa.blob.core.windows.net/uiasset/a084H00003iyLpOQAU/css/mainV2.css"
+        data-preload="true" crossorigin="anonymous">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+    <link rel="preload" as="style"
+        href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;500;700;900&amp;display=swap">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;500;700;900&amp;display=swap" media="all"
+        onload="this.media='all'">
+    <link rel="stylesheet" href="./main.scss">
+    <link rel="stylesheet" href="./main.css">
+    <noscript>
+        <link rel="stylesheet"
+            href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;500;700;900&display=swap" />
+    </noscript>
+    <link rel="icon" href="data:;base64,iVBORw0KGgo=">
+    <script data-container="true" nonce="PDKvaT1r9pI+1mNu/B7TDA==">var CP = {
+            "list": []
+        };
+        var SA_FIELDS = {
+            "AttributeFields": [
+                {
+                    "UX_INPUT_TYPE": "TextBox",
+                    "USER_INPUT_TYPE": "TextBox",
+                    "IS_TEXT": true,
+                    "IS_EMAIL": false,
+                    "IS_PASSWORD": false,
+                    "IS_DATE": false,
+                    "IS_RADIO": false,
+                    "IS_DROP": false,
+                    "IS_TEXT_IN_PARAGRAPH": false,
+                    "IS_CHECK_MULTI": false,
+                    "IS_LINK": false,
+                    "VERIFY": false,
+                    "DN": "Sign in name",
+                    "ID": "signInName",
+                    "U_HELP": "Your account handler.",
+                    "DAY_PRE": "0",
+                    "MONTH_PRE": "0",
+                    "YEAR_PRE": "0",
+                    "PAT": "^([a-zA-Z0-9\\._%+!$&amp;*=^|~#%&#39;`?{}\\-]+@([a-zA-Z0-9\\-]+\\.){1,}([a-zA-Z]{2,16}))|(\\+(?:[0-9][\\x20-]?){6,14}[0-9])$",
+                    "PAT_DESC": "Please enter a valid account.",
+                    "IS_REQ": true,
+                    "IS_RDO": false,
+                    "OPTIONS": []
+                },
+                {
+                    "UX_INPUT_TYPE": "Password",
+                    "USER_INPUT_TYPE": "Password",
+                    "IS_TEXT": false,
+                    "IS_EMAIL": false,
+                    "IS_PASSWORD": true,
+                    "IS_DATE": false,
+                    "IS_RADIO": false,
+                    "IS_DROP": false,
+                    "IS_TEXT_IN_PARAGRAPH": false,
+                    "IS_CHECK_MULTI": false,
+                    "IS_LINK": false,
+                    "VERIFY": false,
+                    "DN": "Password",
+                    "ID": "password",
+                    "U_HELP": "Enter password",
+                    "DAY_PRE": "0",
+                    "MONTH_PRE": "0",
+                    "YEAR_PRE": "0",
+                    "IS_REQ": true,
+                    "IS_RDO": false,
+                    "OPTIONS": []
+                }
+            ]
+        };
+
+
+        var CONTENT = {
+            "remember_me": "Mantener la sesi&#243;n iniciada",
+            "invalid_password": "La contrase&#241;a que ha escrito no tiene el formato esperado.",
+            "cancel_message": "El usuario ha olvidado su contrase&#241;a.",
+            "requiredField_email": "Escriba su direcci&#243;n de correo electr&#243;nico.",
+            "logonIdentifier_username": "Nombre de usuario",
+            "forgotpassword_link": "&#191;Olvid&#243; su contrase&#241;a?",
+            "local_intro_email": "Inicie sesi&#243;n con su cuenta existente.",
+            "invalid_email": "Por favor, ingrese una direcci&#243;n de correo electr&#243;nico v&#225;lida.",
+            "createaccount_link": "Registrarse ahora",
+            "unknown_error": "Tenemos problemas para iniciar su sesi&#243;n. Vuelva a intentarlo m&#225;s tarde.",
+            "requiredField_username": "Escriba su nombre de usuario.",
+            "logonIdentifier_email": "Direcci&#243;n de correo electr&#243;nico",
+            "email_pattern": "^[a-zA-Z0-9.!#$%&amp;’&#39;*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\\.[a-zA-Z0-9-]+)*$",
+            "requiredField_password": "Escriba su contrase&#241;a.",
+            "password": "Contrase&#241;a",
+            "divider_title": "OR",
+            "email_tooltip": "Escriba una direcci&#243;n de correo electr&#243;nico v&#225;lida.",
+            "createaccount_intro": "&#191;No tiene una cuenta?",
+            "social_intro": "Iniciar sesi&#243;n con su cuenta de redes sociales",
+            "button_signin": "Iniciar sesi&#243;n",
+            "local_intro_username": "Inicie sesi&#243;n con su nombre de usuario."
+        };
+
+        var SETTINGS = {
+            "remoteResource": "https://prd-pmi-azb2c-ui.azurewebsites.net/signuporsignin?ui_locales=es-UY&redirect_uri=https://uy.pmiopen.com/services/authcallback/dte_azure&marketId=a084H00003iyLpOQAU&client_Id=bd84ae14-acbf-4a52-ba4a-d5ec1b591ba4&CBparams=cD1CMkNfMUFfTG9naW5fSldUX0VtYWlsT3JQaG9uZV9SUCZyZXNwb25zZV90eXBlPWNvZGUmc3RhdGU9Q0FBQUFYdkhfMndMTURBd01EQXdNREF3TURBd01EQXdBQUFBNlBjVjdVUm1ZM3k5cjFyQnlEcFdjSGQ1WC1sQjA1Z3ZHOWFiczBPcWx5NVowd1BrUUMtTWwwQWx1UzVybFhtVDRfZnFBaTRINWd2RW5Ua2xGUTZlRFFCSW5EblFVMDRtQl9yRDlDS0tTMW9ZYkFBUm1yRTlLTDBXd2lPZ1JsOFRCTkpqZTZvaEJ6NGRZeVE0MWg3bkhUM3BNMVlTOW5lZ3I0eUxBSEhJNGYtTk03SVpHZ3pobmVWQWItcW13NEVnRU5Sc09QYXh3SFFLMzlDdFIxbXd5X0EtNEhqLW5aUndXYjVic0xIZkoxckJ5djdTTlhIMW1UTUNfR0Z0WG9TV3dBPT0mc2NvcGU9b3BlbmlkIGJkODRhZTE0LWFjYmYtNGE1Mi1iYTRhLWQ1ZWMxYjU5MWJhNA",
+            "retryLimit": 3,
+            "trimSpacesInPassword": true,
+            "api": "CombinedSigninAndSignup",
+            "csrf": "aURkSEJoV2Rzb1gvSUU3Y2JoSlduK01hK0FmM2ZoUUVPWWNRVmZINUNRTU9YTEcwc2ZDVlBxdTgyeUdWT3ZvZGxBK216SkdrZ1FPRVFMMlpad2t5R1E9PTsyMDIxLTA5LTEwVDEyOjE3OjU4LjM1MTA0ODJaO0xHcFVaOG9KKzBYMjFhMGdyaHpPbVE9PTt7Ik9yY2hlc3RyYXRpb25TdGVwIjo2fQ==",
+            "transId": "StateProperties=eyJUSUQiOiJmNjlmZGYwOC1mMjg2LTQyMGEtYWFhMS02MWI0YjFlNmRjMWUifQ",
+            "pageViewId": "889a5c21-42f1-41a3-a2c8-9e08677b5a47",
+            "suppressElementCss": false,
+            "isPageViewIdSentWithHeader": false,
+            "allowAutoFocusOnPasswordField": true,
+            "pageMode": 1,
+            "config": {
+                "showSignupLink": "false",
+                "operatingMode": "Username",
+                "sendHintOnSignup": "False",
+                "forgotPasswordLinkLocation": "AfterLabel",
+                "includePasswordRequirements": "true",
+                "enableRememberMe": "true",
+                "announceVerCompleteMsg": "True"
+            },
+            "hosts": {
+                "tenant": "/IQOSExternal.onmicrosoft.com/B2C_1A_Login_JWT_EmailOrPhone_RP",
+                "policy": "B2C_1A_Login_JWT_EmailOrPhone_RP",
+                "static": "https://iqosexternal.b2clogin.com/static/"
+            },
+            "locale": {
+                "lang": "es",
+                "country": "UY"
+            },
+            "xhrSettings": {
+                "retryEnabled": true,
+                "retryMaxAttempts": 3,
+                "retryDelay": 200,
+                "retryExponent": 2,
+                "retryOn": [
+                    "error",
+                    "timeout"
+                ]
+            }
+        };
+
+    </script>
+    <script
+        nonce="PDKvaT1r9pI+1mNu/B7TDA==">window.staticHost = "https://iqosexternal.b2clogin.com/static"; window.targetSlice = "001-000"; window.targetDc = "SAN"; window.initializationTimeout = 30000; window.diagsAlways = true; window.maxTrace = 1000</script>
+
+    <style>
+        .no_display {
+            display: none;
+        }
+
+        .error_container h1 {
+            color: #333;
+            font-size: 1.2em;
+            font-family: 'Segoe UI Light', Segoe, 'Segoe UI', SegoeUI-Light-final, Tahoma, Helvetica, Arial, sans-serif;
+            font-weight: lighter;
+        }
+
+        .error_container p {
+            color: #333;
+            font-size: .8em;
+            font-family: 'Segoe UI', Segoe, SegoeUI-Regular-final, Tahoma, Helvetica, Arial, sans-serif;
+            margin: 14px 0;
+        }
+    </style>
+</head>
+
+<body cz-shortcut-listen="true" class="gorgias-loaded" style=""><noscript>
+        <div id="no_js">
+            <div class="error_container">
+                <div>
+                    <h1>We can't sign you in</h1>
+                    <p>Your browser is currently set to block JavaScript. You need to allow JavaScript to use this
+                        service.</p>
+                    <p>To learn how to allow JavaScript or to find out whether your browser supports JavaScript, check
+                        the online help in your web browser.</p>
+                </div>
+            </div>
+        </div>
+    </noscript>
+    <div id="no_cookie" class="no_display">
+        <div class="error_container">
+            <div>
+                <h1>We can't sign you in</h1>
+                <p>Your browser is currently set to block cookies. You need to allow cookies to use this service.</p>
+                <p>Cookies are small text files stored on your computer that tell us when you're signed in. To learn how
+                    to allow cookies, check the online help in your web browser.</p>
+                <script
+                    nonce="PDKvaT1r9pI+1mNu/B7TDA==">if (!navigator.cookieEnabled) document.getElementById('no_cookie').className = ''; if (typeof $diags !== 'undefined') $diags.initializationSuccessful = true;</script>
+            </div>
+        </div>
+    </div>
+    <div class="cookieConsentContainer" id="cookieConsentContainer">
+        <span class="close" onclick="cookieDismiss();">X</span>
+        <div class="cookieTitle">
+            <a>Cookies</a>
+        </div>
+        <div class="cookieDesc">
+            <p>Esta página utiliza solo cookies que son estrictamente necesarias para entrar la página y los servicios
+                en ella. Son: x-ms-cpim-trans, x-ms-cpim-cache, x-ms-cpim-csrf, x-ms-cpim-sso. <a id="cookielinkbutton"
+                    href="https://prd-pmi-azb2c-ui.azurewebsites.net/CookiePolicy?client_id=bd84ae14-acbf-4a52-ba4a-d5ec1b591ba4&amp;marketId=a084H00003iyLpOQAU&amp;ui_locales=es-UY"
+                    target="_blank">Más información.</a> </p>
+        </div>
+        <div class="cookieButton">
+            <a onclick="cookieDismiss();">Entendido</a>
+        </div>
+    </div>
+    <div class="container">
+        <!--[if IE]>
+    <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+    <![endif]-->
+
+        <header>
+            <div>
+                <img alt="Logo"
+                    src="https://prdpmiazb2csa.blob.core.windows.net/uiasset/a084H00003iyLpOQAU/img/logo-top.png"
+                    srcset="https://prdpmiazb2csa.blob.core.windows.net/uiasset/a084H00003iyLpOQAU/img/logo-top-mobile.png 480w, https://prdpmiazb2csa.blob.core.windows.net/uiasset/a084H00003iyLpOQAU/img/logo-top.png 800w"
+                    sizes="(max-width: 639px) 480px,
+                      800px">
+            </div>
+        </header>
+        <section>
+            <div class="grid">
+
+                <div class="grid__left">
+                    <div class="grid__item">
+                        <div class="text-xl text-color--white text-uppercase weight-bold">No tienes una cuenta?</div>
+                        <div class="item__signup"><button class="custom--main-color text-color--white weight-bold"
+                                onclick="window.location.href='https://uy.pmiopen.com/s/registration?language=es_UY&amp;ls=true'">Registrarse</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="grid__right">
+                    <div class="grid__item">
+                        <div id="api" data-name="Unified">
+
+
+                            <form id="localAccountForm" action="JavaScript:void(0);" class="localAccount"
+                                aria-label="Inicie sesión con su nombre de usuario.">
+                                <div class="intro">
+                                    <h2>
+                                        Inicie sesión con su nombre de usuario.
+                                    </h2>
+                                </div>
+                                <div class="error pageLevel" aria-hidden="true" role="alert" style="display: none;">
+                                    <p></p>
+                                </div>
+                                <div class="entry">
+                                    <div class="entry-item">
+                                        <label for="signInName">
+                                            Nombre de usuario
+                                        </label>
+                                        <div class="error itemLevel" aria-hidden="true" role="alert"
+                                            style="display: none;">
+                                            <p></p>
+                                        </div>
+                                        <input type="text" id="signInName" name="Sign in name"
+                                            placeholder="Nombre de usuario" value="" aria-label="Nombre de usuario">
+                                    </div>
+                                    <div class="entry-item">
+                                        <div class="password-label">
+                                            <label for="password">Contraseña</label>
+                                            <a id="forgotPassword"
+                                                href="https://IQOSExternal.b2clogin.com/IQOSExternal.onmicrosoft.com/oauth2/v2.0/authorize?p=B2C_1A_PasswordReset_Forget_EmailOrPhone_RP&amp;client_id=bd84ae14-acbf-4a52-ba4a-d5ec1b591ba4&amp;nonce=defaultNonce&amp;redirect_uri=https://uy.pmiopen.com/s/login&amp;ui_locales=es-UY&amp;marketId=a084H00003iyLpOQAU&amp;scope=openid&amp;response_type=id_token&amp;CBparams=cD1CMkNfMUFfTG9naW5fSldUX0VtYWlsT3JQaG9uZV9SUCZyZXNwb25zZV90eXBlPWNvZGUmc3RhdGU9Q0FBQUFYdkhfMndMTURBd01EQXdNREF3TURBd01EQXdBQUFBNlBjVjdVUm1ZM3k5cjFyQnlEcFdjSGQ1WC1sQjA1Z3ZHOWFiczBPcWx5NVowd1BrUUMtTWwwQWx1UzVybFhtVDRfZnFBaTRINWd2RW5Ua2xGUTZlRFFCSW5EblFVMDRtQl9yRDlDS0tTMW9ZYkFBUm1yRTlLTDBXd2lPZ1JsOFRCTkpqZTZvaEJ6NGRZeVE0MWg3bkhUM3BNMVlTOW5lZ3I0eUxBSEhJNGYtTk03SVpHZ3pobmVWQWItcW13NEVnRU5Sc09QYXh3SFFLMzlDdFIxbXd5X0EtNEhqLW5aUndXYjVic0xIZkoxckJ5djdTTlhIMW1UTUNfR0Z0WG9TV3dBPT0mc2NvcGU9b3BlbmlkIGJkODRhZTE0LWFjYmYtNGE1Mi1iYTRhLWQ1ZWMxYjU5MWJhNA">¿Olvidó
+                                                su contraseña?</a>
+                                        </div>
+                                        <div class="error itemLevel" aria-hidden="true" style="display: none;">
+                                            <p role="alert"></p>
+                                        </div>
+                                        <input type="password" id="password" name="Password" placeholder="Contraseña"
+                                            aria-label="Contraseña">
+                                    </div>
+                                    <div class="entry-item"><select id="languages" name="SelectedLanguage"
+                                            style="display: none;">
+                                            <option value="es-UY">Spanish (Uruguay)</option>
+                                        </select></div>
+                                    <div class="working"></div>
+                                    <div class="rememberMe">
+                                        <input id="rememberMe" type="checkbox" name="rememberMe">
+                                        <label for="rememberMe">Mantener la sesión iniciada</label>
+                                    </div>
+                                    <div class="buttons">
+                                        <button id="next" type="submit" form="localAccountForm">Iniciar sesión</button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                        <div class="custom-box">
+                            <a class="text-color--main text-uppercase text-sm"
+                                href="https://www.pmiprivacy.com/es-la/traders" target="_blank">Política&nbsp;</a>
+                            <a class="text-color--main text-uppercase text-sm"
+                                href="https://uy.pmiopen.com/s/terms-and-conditions" target="_blank">Términos y
+                                Condiciones&nbsp;</a>
+                            <a class="text-color--main text-uppercase text-sm"
+                                href="https://uy.pmiopen.com/s/cookie-policy" target="_blank">Cookies&nbsp;</a>
+                        </div>
+                    </div>
+                </div>
+                <script src="//prd-pmi-azb2c-ui.azurewebsites.net/js/Javascript.js"></script>
+                <script src="//prd-pmi-azb2c-ui.azurewebsites.net/js/cookiebanner.js"></script>
+                <script>
+                    var forgotPassworduRL = "https://IQOSExternal.b2clogin.com/IQOSExternal.onmicrosoft.com/oauth2/v2.0/authorize?p=B2C_1A_PasswordReset_Forget_EmailOrPhone_RP&client_id=bd84ae14-acbf-4a52-ba4a-d5ec1b591ba4&nonce=defaultNonce&redirect_uri=https://uy.pmiopen.com/s/login&ui_locales=es-UY&marketId=a084H00003iyLpOQAU&scope=openid&response_type=id_token&CBparams=cD1CMkNfMUFfTG9naW5fSldUX0VtYWlsT3JQaG9uZV9SUCZyZXNwb25zZV90eXBlPWNvZGUmc3RhdGU9Q0FBQUFYdkhfMndMTURBd01EQXdNREF3TURBd01EQXdBQUFBNlBjVjdVUm1ZM3k5cjFyQnlEcFdjSGQ1WC1sQjA1Z3ZHOWFiczBPcWx5NVowd1BrUUMtTWwwQWx1UzVybFhtVDRfZnFBaTRINWd2RW5Ua2xGUTZlRFFCSW5EblFVMDRtQl9yRDlDS0tTMW9ZYkFBUm1yRTlLTDBXd2lPZ1JsOFRCTkpqZTZvaEJ6NGRZeVE0MWg3bkhUM3BNMVlTOW5lZ3I0eUxBSEhJNGYtTk03SVpHZ3pobmVWQWItcW13NEVnRU5Sc09QYXh3SFFLMzlDdFIxbXd5X0EtNEhqLW5aUndXYjVic0xIZkoxckJ5djdTTlhIMW1UTUNfR0Z0WG9TV3dBPT0mc2NvcGU9b3BlbmlkIGJkODRhZTE0LWFjYmYtNGE1Mi1iYTRhLWQ1ZWMxYjU5MWJhNA";
+                    var supportedLanguages = JSON.parse('[{"name":"Spanish (Uruguay)","azureCode":"es-UY","salesforceCode":"es_UY"}]')
+                    var market = JSON.parse('{"marketCode":"a084H00003iyLpOQAU","changePasswordReturnURL":"https://uy.pmiopen.com/s/login","changePasswordPolicy":"B2C_1A_PasswordReset_Welcome_RP","supportPhoneNumber":"","defaultClientId":"bd84ae14-acbf-4a52-ba4a-d5ec1b591ba4","clientIds":["bd84ae14-acbf-4a52-ba4a-d5ec1b591ba4"],"baseReturnURLs":["https://uy.pmiopen.com/services/authcallback/dte_azure","https://uy.pmiopen.com/s/login"],"locale":"es-UY","countryISOCode":"UY","kmsi":true,"ouod":false,"loginHint":true,"supportedLanguages":["es-UY"],"metaTitleText":"PMI OPEN","metaDescriptionText":"Bienvenidos a la comunidad OPEN","forgotPasswordPolicy":"B2C_1A_PasswordReset_Forget_EmailOrPhone_RP","registerDTEUrl":"https://uy.pmiopen.com/s/registration","policyCookieUrlList":[{"orderIndex":1,"labelCode":"MSG_Policy","url":"https://www.pmiprivacy.com/es-la/traders"},{"orderIndex":2,"labelCode":"MSG_TermsAndConditions","url":"https://uy.pmiopen.com/s/terms-and-conditions"},{"orderIndex":3,"labelCode":"MSG_Cookies","url":"https://uy.pmiopen.com/s/cookie-policy"}]}')
+                    var cookiepolicyURL = "https://prd-pmi-azb2c-ui.azurewebsites.net/CookiePolicy?client_id=bd84ae14-acbf-4a52-ba4a-d5ec1b591ba4&marketId=a084H00003iyLpOQAU&ui_locales=es-UY";
+                    var emailpattern = "direcci&#xF3;ndecorreo@dominio.com";
+                    var emailname = emailpattern.split("@")[0];
+                    var emaildomain = emailpattern.split("@")[1].split(".")[0];
+                    var emaildot = emailpattern.split("@")[1].split(".")[1];
+
+                    var HTMLmessages = `<div id='result'>
+                                <a id='one' style='visibility: hidden'>El nombre del usuario debe reflejar las siguientes pautas:</a>
+                                <dl id='two'style='visibility: hidden'>
+                                    <dt id='eight'>Tel&#xE9;fono:</dt>
+                                    <dd id='four'style='visibility: hidden'>Debe comenzar con &#x27;&#x2B;[c&#xF3;digo del pa&#xED;s]&#x27;</dd>
+                                    <dd id='three'style='visibility: hidden'>S&#xF3;lo d&#xED;gitos</dd>
+                                    <dd id='seven'style='visibility: hidden'>
+                                        <a id='phone1'>&#x2B;12</a>
+                                        <a id='phone2'>3456789</a>
+                                    </dd>
+                                    <dt id='five'style='visibility: hidden'>Correo:</dt>
+                                    <dd id='six'style='visibility: hidden'>
+                                        <a id='mail1'>${emailname}</a><a id='mail2'>@</a><a id='mail3'>${emaildomain}</a><a id='mail4'>.</a><a id='mail5'>${emaildot}</a>
+                                    </dd>
+                                </dl>
+                            </div>`;
+
+                    $(document).ready(function () {
+
+                        setTimeout(function () { CallAfterLoading(); }, 1000);
+                    });
+
+                    function CallAfterLoading() {
+                        setTimeout(function () { languagemanagement(forgotPassworduRL, supportedLanguages, market); }, 1000);
+                        setTimeout(function () { usernamehint(HTMLmessages, market.loginHint); }, 1000);
+                        setTimeout(function () { cookieConsent({ cookieUrl: cookiepolicyURL }); }, 1000);
+
+                        document.getElementById("cookielinkbutton").href = cookiepolicyURL;
+                        document.getElementById("cookielinkbutton").setAttribute("target", "_blank");
+                    }
+                </script>
+            </div>
+        </section>
+        <footer>
+            <div>
+                <img alt="Logo"
+                    src="https://prdpmiazb2csa.blob.core.windows.net/uiasset/a084H00003iyLpOQAU/img/logo-bottom.png"
+                    srcset="https://prdpmiazb2csa.blob.core.windows.net/uiasset/a084H00003iyLpOQAU/img/logo-bottom-mobile.png 480w, https://prdpmiazb2csa.blob.core.windows.net/uiasset/a084H00003iyLpOQAU/img/logo-bottom.png 800w"
+                    sizes="(max-width: 639px) 480px,
+                      800px">
+            </div>
+        </footer>
+        <script>
+            var configJSON = '{"marketCode":"a084H00003iyLpOQAU","changePasswordReturnURL":"https://uy.pmiopen.com/s/login","changePasswordPolicy":"B2C_1A_PasswordReset_Welcome_RP","supportPhoneNumber":"","defaultClientId":"bd84ae14-acbf-4a52-ba4a-d5ec1b591ba4","clientIds":["bd84ae14-acbf-4a52-ba4a-d5ec1b591ba4"],"baseReturnURLs":["https://uy.pmiopen.com/services/authcallback/dte_azure","https://uy.pmiopen.com/s/login"],"locale":"es-UY","countryISOCode":"UY","kmsi":true,"ouod":false,"loginHint":true,"supportedLanguages":["es-UY"],"metaTitleText":"PMI OPEN","metaDescriptionText":"Bienvenidos a la comunidad OPEN","forgotPasswordPolicy":"B2C_1A_PasswordReset_Forget_EmailOrPhone_RP","registerDTEUrl":"https://uy.pmiopen.com/s/registration","policyCookieUrlList":[{"orderIndex":1,"labelCode":"MSG_Policy","url":"https://www.pmiprivacy.com/es-la/traders"},{"orderIndex":2,"labelCode":"MSG_TermsAndConditions","url":"https://uy.pmiopen.com/s/terms-and-conditions"},{"orderIndex":3,"labelCode":"MSG_Cookies","url":"https://uy.pmiopen.com/s/cookie-policy"}]}';
+            var marketConfig = JSON.parse(configJSON);
+        </script>
+
+    </div>
+</body>
+</html>
