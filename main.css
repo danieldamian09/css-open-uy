@@ -333,7 +333,7 @@ td {
 
 .intro {
   color: #1c3664;
-  padding: 10px !important;
+  padding: 15px 40px !important;
 }
 
 .intro h2 {
@@ -478,7 +478,7 @@ ul li {
 
 ul li input {
   height: 45px !important;
-  width: 80% !important;
+  width: 70% !important;
   box-shadow: none !important;
 }
 
@@ -506,7 +506,7 @@ input {
   padding: 0 1rem;
   border-radius: 10px !important;
   height: 45px !important;
-  width: 80% !important;
+  width: 70% !important;
   box-shadow: none !important;
   margin-bottom: 1rem;
   border: 1px solid #246FA9 !important;
@@ -531,7 +531,7 @@ label[for=verificationCode] {
 }
 
 input#verificationCode {
-  width: 60% !important;
+  width: 70% !important;
   margin: 1rem auto;
 }
 
@@ -558,7 +558,7 @@ label[for=verificationCode]+a#retryCode {
 }
 
 .verificationInfoText {
-  padding: 10px 0;
+  padding: 10px 40px;
   text-decoration: underline;
 }
 

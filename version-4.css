@@ -1,0 +1,14 @@
+/* ==============================Cambios en olvido Contraseña============================================ */
+.intro {
+    color: #1c3664;
+    padding: 15px 40px !important;
+}
+
+div#readonly_email_info {
+    padding: 10px 40px;
+}
+
+input#readonly_email_ver_input {
+    margin-top: 10px;
+    width: 70% !important;
+}
